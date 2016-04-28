@@ -1,2 +1,18 @@
-<html lang="en" ng-app="daiya">
+<html lang="en" ng-app="main">
+  <head>
+    <title> DAIYA </title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/controllers.js"></script>
+  </head>
+  <body ng-controller="mainCtrl" ng-style="{{style}}">
+    <div ng-view></div>
+  </body>
 </html>
